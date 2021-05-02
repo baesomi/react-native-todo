@@ -42,7 +42,7 @@ const Task = ({item, deleteTask, toggleTask, updateTask}) => {
         setIsEditing(false);
         setText(item.text);
       }
-    };
+    }; 
   
     return isEditing ? (
       <Input
